@@ -4,7 +4,7 @@ function createHome(){
     home.classList.add('home');
 
     const storeImage = document.createElement('img');
-    storeImage.src = `../src/images/pizza-store.jpeg`;
+    storeImage.src = `./images/pizza-store.jpeg`;
     storeImage.alt = 'Pizza Store Image.'
 
     home.appendChild(storeImage);
