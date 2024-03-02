@@ -8,7 +8,7 @@ function createHeader(){
 
     const restaurantName = document.createElement('h1');
     restaurantName.classList.add('restaurant-name');
-    restaurantName.textContent = "Base Tadka";
+    restaurantName.textContent = "BLUZ Pizzeria";
 
     header.appendChild(restaurantName);
     header.appendChild(createNav());

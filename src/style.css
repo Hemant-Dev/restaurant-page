@@ -47,7 +47,7 @@ header {
     }
     h1 {
         font-size: 3rem;
-        /* font-weight: bold; */
+        font-weight: 900;
         /* border: 1px solid #111; */
         background: linear-gradient(to right, #f9a8d4, #db2777);
         padding: 1.2rem 4rem;
@@ -61,16 +61,27 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
     padding: 12px;
     justify-items: center;
+    /* align-items: center; */
     gap: 2rem;
     margin-top: 2rem;
 }
 
 .menu-item {
     background-color: var(--menu-item-color);
-    max-width: 50%;
+    max-width: 80%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    img {
+        min-width: 50%;
+        min-height: 50%;
+        margin: 10px;
+    }
 }
+
+
 
 .footer {
     padding: 1rem;

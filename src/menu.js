@@ -16,25 +16,25 @@ function createMenu(){
       );
       menu.appendChild(
         createMenuItem(
-          "Colorato",
+          "Ratatouille",
           "Tomato sauce, Mozarella, Onion, Pepper, Champignons, Basil"
         )
       );
       menu.appendChild(
         createMenuItem(
-          "Pomodoro",
+          "Pizza",
           "Tomato sauce, Mozarella, Tomato, Onion, Feta cheese, Chilli"
         )
       );
       menu.appendChild(
         createMenuItem(
-          "Crema",
+          "Pasta",
           "White sauce, Mozarella, Shrimps, Salmon, Pineapple, Olives, Basil"
         )
       );
       menu.appendChild(
         createMenuItem(
-          "Carne",
+          "Kempas",
           "Tomato sauce, Mozarella, Homemade sausage, Bacon, Garlic, Pepper, Chilli"
         )
       );
@@ -54,10 +54,10 @@ function createMenuItem(name, description){
     foodDescription.textContent = description;
     
     const foodImage = document.createElement('img');
-    foodImage.src = ``;
-    foodImage.alt = ``;
+    foodImage.src = `../src/images/menu-images/${name.toLowerCase()}.jpg`;
+    foodImage.alt = `Image of ${foodName}`;
 
-    // menuItem.appendChild(foodImage);
+    menuItem.appendChild(foodImage);
     menuItem.appendChild(foodName);
     menuItem.appendChild(foodDescription);
 
