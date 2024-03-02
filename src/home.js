@@ -1,13 +1,15 @@
+
 function createHome(){
     const home = document.createElement('div');
     home.classList.add('home');
 
-    // const chefImage = document.createElement('img');
-    // chefImage.alt = 'chefImage'
+    const storeImage = document.createElement('img');
+    storeImage.src = `../src/images/pizza-store.jpeg`;
+    storeImage.alt = 'Pizza Store Image.'
 
+    home.appendChild(storeImage);
     home.appendChild(createParagraph("Best pizza in your country"));
     home.appendChild(createParagraph("Made with passion since 1988"));
-    // home.appendChild(chefImage);
     home.appendChild(createParagraph("Order online or visit the nearest store!"));
 
     return home;

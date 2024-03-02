@@ -22,7 +22,7 @@
 }
 
 main {
-    min-height: 80vh;
+    min-height: 60vh;
     min-width: 80vw;
     background-color: var(--home-color);
 }
@@ -33,20 +33,20 @@ header {
         margin-top: 1rem;
     }
     button {
-        padding: 1rem;
+        padding: 1rem 2rem;
         border-radius: 5px;
         margin: 0.3rem;
         background-color: var(--button-color);
         font-weight: bold;
         color: #eee;
-        font-size: 1rem;
+        /* font-size: 1rem; */
         cursor: pointer;
         &:hover {
             background-color: var(--button-color-hover);
         }
     }
     h1 {
-        font-size: 3rem;
+        /* font-size: 3rem; */
         font-weight: 900;
         /* border: 1px solid #111; */
         background: linear-gradient(to right, #f9a8d4, #db2777);
@@ -80,7 +80,6 @@ header {
         margin: 10px;
     }
 }
-
 
 
 .footer {
